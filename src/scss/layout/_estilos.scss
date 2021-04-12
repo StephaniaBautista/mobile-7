@@ -1,0 +1,54 @@
+.main{
+    margin: 2rem $separacion / 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .contenido{
+        .primera-parte{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 3rem;
+            h1{
+                text-align: center;
+                font-size: 3rem;
+                line-height: 3rem;
+                font-weight: $bold;
+                color: $Azul;
+            }
+            .contenedor-svg{
+                display: flex;
+                align-items: center;
+                background-color: $morado;
+                border-radius: 50%;
+                padding: 1rem;
+            }
+        }
+        .alerta{
+            margin-top: $separacion / 2;
+        }
+    }
+}
+
+.botones{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    position: absolute;
+    bottom: 0;
+    .boton{
+        padding: 1rem 3rem;
+        width: 100%;
+        border: none;
+        border-radius: .5rem;
+        color: $Azul;
+        background: $Amarillo;
+        font-weight: $bold;
+    }
+    .boton-1{
+        margin-bottom: 1rem;
+    }
+    .boton2{
+        background: $gris;
+    }
+}
